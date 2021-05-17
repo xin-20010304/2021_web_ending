@@ -1,0 +1,70 @@
+/* Root Variables */
+:root {
+  --primary: #434343;
+  --secondary: #FF4081;
+  --primary-contrast: #fff;
+  --primary-divider: rgba(255, 255, 255, 0.07);
+}
+
+
+/* Side navigation style */
+.book-summary {
+	background: var(--primary);
+	color: var(--primary-contrast);
+}
+
+/* Side navigation link style*/
+.gitbook-link {
+  display: none !important;
+}
+
+/* Side navigation elements*/
+.book-summary ul.summary li.header {
+	font-weight: bolder;
+}
+.book-summary ul.summary li.header,
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+	color: var(--primary-contrast);
+}
+.book-summary ul.summary li a, 
+.book-summary ul.summary li span {
+	padding: 10px 25px;
+}
+.book-summary ul.summary li.active>a {
+	font-weight: bolder;
+	color: var(--primary-contrast);
+}
+
+.book-summary ul.summary li.divider {
+	background: var(--primary-divider);
+}
+
+/* Side navigation search form*/
+#book-search-input {
+	background: transparent;
+	padding: 0;
+}
+::-webkit-input-placeholder {
+	color: var(--primary-contrast);
+}
+::-moz-placeholder { 
+	color: var(--primary-contrast);
+}
+:-ms-input-placeholder { 
+	color: var(--primary-contrast);
+}
+:-moz-placeholder { 
+ 	color: var(--primary-contrast);
+}
+
+#book-search-input input, 
+#book-search-input input:focus, 
+#book-search-input input:hover {
+	border-color: var(--primary-divider);
+	padding: 13px;
+}
+
+/* Top Navigation */
+.book-header{
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
